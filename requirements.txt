@@ -1,0 +1,5 @@
+jupyterlab
+matplotlib
+numpy
+parts
+mr4mp
