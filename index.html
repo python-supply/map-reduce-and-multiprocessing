@@ -13226,7 +13226,7 @@ $$\frac{A}{1} \approx \frac{k}{n}.$$<p>This can then be used with the fact from 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>One approach that can make a MapReduce-like workflow concise to implement is to ensure that the <em>representation</em> of a data entry and a partially aggregated set of entries is always the same. This makes it possible to have just a single function that can always take two partial results and combine in into a new, larger partial result. In this example, the representation reflects the final goal: a count of points that are <em>in</em> the circle and a count of all the points in the square that have been generated so far.</p>
+<p>One approach that can make a MapReduce-like workflow concise to implement is to ensure that the <em>representation</em> of a data entry and a partially aggregated set of entries is always the same. This makes it possible to have just a single function that can always take two partial results and combine it into a new, larger partial result. In this example, the representation reflects the final goal: a count of points that are <em>in</em> the circle and a count of <em>all</em> the points in the square (both inside and outside of the circle) that have been generated so far.</p>
 
 </div>
 </div>
